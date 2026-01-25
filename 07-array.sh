@@ -1,8 +1,8 @@
 #!/bin/bash
 
-GAMES=("CRICKET" "FOOTBALL" "HOCKEY" "TENNIS")
+SPORTS=("CRICKET" "FOOTBALL" "HOCKEY" "TENNIS" "BADMINTON")
 
-echo "First GAME: ${GAMES[0]}"
-echo "Last GAME: ${GAMES[3]}"
-echo "Last GAME: ${GAMES[4]}"
-echo "All GAMES: ${GAMES[@]}"
+echo "First SPORT: ${SPORTS[0]}"
+echo "Last SPORT: ${SPORTS[3]}"
+echo "Last SPORT: ${SPORTS[4]}"
+echo "All SPORT: ${SPORTS[@]}"
