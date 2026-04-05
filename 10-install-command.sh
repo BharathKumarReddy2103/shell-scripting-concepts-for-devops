@@ -10,7 +10,7 @@ else
     echo "You are running with root access"
 fi
 
-dnf list install mysql -y
+dnf install mysql -y
 
 # check already installed or not. if installed $? is 0, then
 # if not installed $? is not 0. expression is true
