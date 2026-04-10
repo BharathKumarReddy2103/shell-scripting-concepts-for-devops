@@ -9,7 +9,7 @@ N="\e[0m"
 LOGS_FOLDER="/var/log/shellscript-logs"
 SCRIPT_NAME=$(basename "$0" .sh)
 LOG_FILE="$LOGS_FOLDER/$SCRIPT_NAME.log"
-SOURCE_DIR="/home/ec2-user/app-logs"
+SOURCE_DIR="/root/app-logs"
 
 mkdir -p "$LOGS_FOLDER"
 
